@@ -15,7 +15,8 @@ export default class PasswordInputText extends React.Component {
         
         this.state = {
             icEye: 'visibility-off',
-            password: true
+            password: true,
+            label: props.label
         }
     }
 
